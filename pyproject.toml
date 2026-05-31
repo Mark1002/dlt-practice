@@ -1,0 +1,12 @@
+[project]
+name = "dlt-practice"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "dlt[duckdb,hub,sql-database]>=1.27.2",
+    "ibis-framework>=12.0.0",
+    "marimo>=0.23.8",
+    "numpy>=2.4.6",
+    "pyarrow>=24.0.0",
+    "pymysql>=1.2.0",
+]
