@@ -1,0 +1,4 @@
+[flake8]
+# Notebook cells get concatenated by the linter, so cell-boundary blank-line
+# and import-position codes fire spuriously. Ignore them.
+extend-ignore = E302,E303,E305,E402,W391,E501
