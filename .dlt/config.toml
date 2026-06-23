@@ -7,3 +7,4 @@ dlthub_telemetry = true
 
 [sources.sql_database]
 table = "<configure me>" # fill this in!
+
